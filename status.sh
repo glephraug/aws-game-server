@@ -1,9 +1,9 @@
 
 if sudo systemctl is-active --quiet satisfactory; then
-   echo Server is running Satisfactory
+   echo Server is running Satisfactory.
 elif sudo systemctl is-active --quiet valheim; then
-   echo Server is running Valheim
+   echo Server is running Valheim.
 else
-   echo Server is not running anything
+   echo Server is not running anything.
 fi
 
